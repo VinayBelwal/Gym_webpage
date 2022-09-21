@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITNESS FOREEVER</title>
+</head>
+<link rel="stylesheet" href="GYM style 1 HARRY/webindex.css">
+
+<style>
+        body{
+            
+            margin-left: 0px;
+            margin-top: 0px;
+            background: url('GYM image 1 harry/gymmer.jpg');
+            color: white;
+        }
+        .left{
+            display: inline-block;
+            position: absolute;
+            left: 50px;
+            top: 20px;
+            /* font-size: 15px; */
+            font-family: cursive;
+            width: 200px;
+            cursor: pointer;
+            border: 4px solid red;
+            text-align: center;
+            line-height: 30px;
+            font-size: 18px;  
+        }
+        
+         .left:hover{
+            color: yellowgreen;
+        } 
+        .mid{
+            display: block;
+            width: 25%;
+            margin: 20px 800px;
+            border: 4px solid red;
+            font-family: cursive;
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            border: 4px solid red;
+            font-family: cursive;
+            font-size: 20px;
+        }
+
+        .navbar li{
+            display: inline-block;
+            /* padding: 3px;
+            margin: 2px; */
+            font-size: 15px;
+
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 3px 5px;
+            margin: 2px;
+        }
+        .navbar li a:hover{
+            text-decoration: underline;
+            color: greenyellow;
+        }
+        .btn{
+            margin: 0px 9px;
+            /* color: white; */
+            /* background-color: black; */
+            padding: 4px 14px;
+            border: 3px solid gray;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+            font-family: cursive;
+        }
+        .btn:hover{
+            background-color: greenyellow;
+        }
+        .container{
+            border: 4px solid white;
+            margin: 239px 943px;;
+            padding: 65px;
+            width: 33%;
+            border-radius: 28px;
+            font-size: 12px;
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 500px;
+            padding: 1px;
+            border: 2px solid red;
+            margin: 11px auto;
+            font-size: 17px;
+            border-radius: 8px;
+            font-family: cursive;
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+        }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+
+        <img src="GYM image 1 harry/logo.png" width="150px">    
+ FITNESS FOREVER
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#"> <b>Home</b> </a></li>
+                <li> <a href="#"> <b>About Us</b> </a></li>
+                <li> <a href="#"> <b>Fitness Calculator</b> </a></li>
+                <li> <a href="#"> <b>Contact Us</b> </a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call US Now</button> 
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Join FITNESS FOREEVER To Have The Better You</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Phone Number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Email Id">
+            </div>
+            
+
+        </form>
+        <button class="btn">Submit Now</button>
+    </div>
+
+</body>
+</html>
